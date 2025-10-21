@@ -1,0 +1,17 @@
+tp3-polynomial-cv/
+├─ TP3_kfold_polynomial_cv.py
+├─ test_tp3_kfold_polynomial_cv.py
+├─ examples/
+│  └─ sample_xy.csv
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ LICENSE
+├─ pyproject.toml
+├─ .pre-commit-config.yaml
+├─ .github/
+│  └─ workflows/
+│     └─ ci.yml
+├─ CONTRIBUTING.md
+├─ CODE_OF_CONDUCT.md
+└─ CHANGELOG.md

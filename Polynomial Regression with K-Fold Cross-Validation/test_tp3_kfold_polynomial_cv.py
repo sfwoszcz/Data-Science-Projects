@@ -1,6 +1,6 @@
-# Filename: test_tp3_kfold_polynomial_cv.py
+# Filename: test_kfold_polynomial_cv.py
 """
-Pytest suite for TP3_kfold_polynomial_cv.py
+Pytest suite for kfold_polynomial_cv.py
 
 What this validates:
 1) The CV summary has the expected structure and columns.

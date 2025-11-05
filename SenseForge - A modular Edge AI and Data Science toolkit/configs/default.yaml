@@ -1,0 +1,18 @@
+data:
+  sampling_hz: 200
+  window:
+    size: 128
+    stride: 64
+  columns:
+    timestamp: 'timestamp'
+    signal: 'vibration'
+features:
+  rms: true
+  mean: true
+  std: true
+  zcr: true
+pipeline:
+  normalize: true
+  export_features_csv: 'artifacts/features.csv'
+plot:
+  out: 'artifacts/eda.png'

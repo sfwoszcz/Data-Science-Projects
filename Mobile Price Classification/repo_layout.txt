@@ -1,0 +1,21 @@
+mobile-price-classification/
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ Dockerfile
+├─ .dockerignore
+├─ Makefile
+├─ MobilePhone.csv
+├─ mobile_visualization.py
+├─ mobile_classification.py
+├─ mobile_price_classification.ipynb
+├─ src/
+│  └─ mobile_price/
+│     ├─ __init__.py
+│     └─ utils.py
+├─ tests/
+│  ├─ test_visualization_outputs.py
+│  └─ test_classification_outputs.py
+└─ .github/
+   └─ workflows/
+      └─ ci.yml   # place the downloaded ci file here

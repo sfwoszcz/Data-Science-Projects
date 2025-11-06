@@ -1,0 +1,16 @@
+signal_transmission_nn/
+├─ src/
+│  └─ signal_transmission.py
+├─ scripts/
+│  ├─ run_signal_transmission.py
+│  └─ plot_activations.py
+├─ tests/
+│  └─ test_signal_transmission.py
+├─ requirements.txt
+├─ Makefile
+├─ Dockerfile
+├─ .gitignore
+├─ .dockerignore
+└─ .github/
+   └─ workflows/
+      └─ ci.yml

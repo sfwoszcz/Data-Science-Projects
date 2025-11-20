@@ -1,0 +1,22 @@
+activation-functions-nn/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .dockerignore
+├── Dockerfile
+├── Makefile
+├── data/
+│   └── mnist_data.csv         # <-- your MNIST dataset
+├── src/
+│   ├── __init__.py
+│   ├── data_loading.py        # load + split + create DataLoaders
+│   ├── model.py               # NN class with pluggable activation
+│   ├── train_eval.py          # training and evaluation helpers
+│   └── plot_performance.py    # new script to generate performance plot
+├── scripts/
+│   └── run_activation_experiments.py  # main script for experiments
+├── tests/
+│   └── test_model_shapes.py   # simple sanity tests
+└── .github/
+    └── workflows/
+        └── ci.yml             # updated CI/CD pipeline

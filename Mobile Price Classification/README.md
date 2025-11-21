@@ -75,16 +75,7 @@ mobile-price-classification/
 ├─ mobile_visualization.py
 └─ mobile_classification.py
 ```
-
-Initialize and push:
-```bash
-git init
-git add .
-git commit -m "Case Study 2.C.02: visualization + classification (KNN & RF)"
-git branch -M main
-git remote add origin https://github.com/<your-username>/mobile-price-classification.git
-git push -u origin main
-```
+---
 
 ## License
 MIT

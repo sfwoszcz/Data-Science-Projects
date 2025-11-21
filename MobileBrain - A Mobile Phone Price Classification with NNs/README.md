@@ -13,37 +13,6 @@ Dataset file:
 
 ---
 
-# Repository Layout
-mobilephone-price-nn/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── .dockerignore
-├── Dockerfile
-├── Makefile
-├── data/
-│   └── MobilePhone.csv    # <- put your CSV here
-├── src/
-│   ├── __init__.py
-│   ├── data_loading.py
-│   ├── model.py
-│   ├── train_eval.py
-│   ├── knn_baseline.py
-│   └── hyperparam_search.py
-├── scripts/
-│   ├── run_baseline_nn.py
-│   ├── run_knn.py
-│   └── run_hyperparam_search.py
-├── tests/
-│   ├── test_data_loading.py
-│   ├── test_model_forward.py
-│   └── test_training_loop.py
-└── .github/
-    └── workflows/
-        └── ci.yml
-
----
-
 ## Features and Label
 
 - **Label**: `Price Range` (low / medium / high)

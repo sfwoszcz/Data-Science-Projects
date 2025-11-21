@@ -1,6 +1,6 @@
-# Mobile Phone Price Classification with Neural Networks
+# MobileBrain - A Mobile Phone Price Classification with Neural Networks
 
-PhoneBrain is a machine learning project that predicts mobile phone price categories using PyTorch-based neural networks. The project includes a full data pipeline, a KNN baseline, hyperparameter tuning, Docker support, CI testing, and a clean modular codebase. Designed as a hands-on Data Science project focused on classification, model comparison, and neural network experimentation.
+MobileBrain is a machine learning project that predicts mobile phone price categories using PyTorch-based neural networks. The project includes a full data pipeline, a KNN baseline, hyperparameter tuning, Docker support, CI testing, and a clean modular codebase. Designed as a hands-on Data Science project focused on classification, model comparison, and neural network experimentation.
 
 This project trains a PyTorch neural network to predict the **price category**
 (low, medium, high) of mobile phones based on hardware and feature data.

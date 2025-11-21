@@ -17,7 +17,7 @@ Columns (observed):
 - `touch_screen` (0/1)
 - `Price Range` (label: `l`, `m`, `h`)
 
-> If you do not have the CSV, place it at `/mnt/data/K4.0026_2.C.02_MobilePhone.csv`
+> If you do not have the CSV, place it at `/mnt/data/MobilePhone.csv`
 > or adjust the paths inside the scripts.
 
 ## What’s included
